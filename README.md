@@ -6,3 +6,6 @@ As funções possuem os dados de calibração dos sensores
 
 O código em Python lê a porta serial do arduino e envia os dados para uma planilha excel e outra online do google sheets: 
 (https://docs.google.com/spreadsheets/d/1pNtnnA912Z3zYJw5Aj4xiIXB5Im3NspKPM-Obb4ECGM/edit?usp=sharing)
+
+Neste link é mostrado a configuração da API do google sheets para permitir a conexão e transmissão de dados:
+(https://codoid.com/automation-testing/gspread-python-tutorial/)
