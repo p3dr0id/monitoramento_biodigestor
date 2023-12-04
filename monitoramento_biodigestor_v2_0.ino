@@ -14,8 +14,6 @@
 #define RL_VALUE (21.7)    //resistência de carga em kilo ohms (inserir o valor da resistência utilizada na protoboard)
 
 // definição de constantes de software
-#define CALIBARAION_SAMPLE_TIMES  (50)    //número de amostras para fase de calibração do MQ4
-#define CALIBRATION_SAMPLE_INTERVAL (500)   //intervalo de tempo (milissegundos) entre cada amostra na fase de calibração
 #define READ_SAMPLE_INTERVAL  (50)    //quantas amostras serão tomadas na operação normal
 #define READ_SAMPLE_TIMES (5)     //intervalo de tempo (milissegundos) entre cada amostra na operação normal
 
