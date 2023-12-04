@@ -1,6 +1,7 @@
 # Projeto de Pesquisa: Monitoramento online de um biodigestor utilizando Arduino e sensores
 
-Este repositório possui os códigos do arduino onde estão dispostas funções para o cálculo de parâmetros da biodigestão.
+Este repositório possui os códigos do arduino, onde estão dispostas funções para o cálculo de parâmetros da biodigestão e do processo de backup
+e disponibilização online dos dados para acompanhamento remoto, em tempo real.
 
 As funções do código do Arduino (monitoramento_biodigestor_v2_0.ino) possuem os dados de calibração dos sensores
 
