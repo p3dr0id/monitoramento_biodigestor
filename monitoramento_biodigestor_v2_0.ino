@@ -20,7 +20,7 @@
 // definição de variáveis:
 float m = -0.318; // coef. angular
 float beta = 1.133; // coef. linear
-float Ro = 12.0; // colocar valor obtido em laboratório
+float Ro = 12.0; // colocar valor obtido em laboratório (obtido do processo de calibração no ar puro)
 
 
 DHT dht(PIN_DHT, DHT11); // define o pino e o tipo de DHT
