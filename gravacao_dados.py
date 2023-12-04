@@ -29,7 +29,7 @@ def teste_conexao_gsheet():
         acesso_planilha_gsheet = gspread.service_account(credencial_google)
         planilha_gsheet = acesso_planilha_gsheet.open_by_key(key_planilha_google)
         print("Conectado com a planilha google:", planilha_gsheet.title)
-    except serial.SerialException:
+    except gspread.exceptions.GSpreadException:
         print("Falha na conexão com a planilha google")
         pass
 
